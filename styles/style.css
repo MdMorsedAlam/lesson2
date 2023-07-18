@@ -12,6 +12,9 @@ img {
   max-width: 100%;
   max-height: 100%;
 }
+section {
+  padding: 30px 0px;
+}
 /* Defult Styles End */
 /* Shared Styles Start */
 .btn-primary {
@@ -45,6 +48,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding:0px 10px;
 }
 nav li {
   list-style: none;
@@ -87,11 +91,11 @@ nav > ul > li > a {
 }
 /* Header Styles End */
 .sponspor-container {
-  padding: 50px;
   display: flex;
   justify-content: space-around;
   background-color: #fff;
 }
+/* Flex collection styles start */
 .collection-container {
   padding: 10px 50px;
   display: grid;
@@ -118,19 +122,37 @@ nav > ul > li > a {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
-.collection-box-title {
+.collection-box-title,
+.cart-box-title {
   font-size: 2rem;
   font-weight: 700;
   color: #18191f;
 }
-.collection-box-title2 {
+.collection-box-title2,
+.cart-box-title2 {
   font-size: 2rem;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.87);
   padding: 10px 0px;
 }
-.collection-box-description {
+.collection-box-description,
+.cart-box-description {
   font-size: 1rem;
   font-weight: 500;
   color: #787885;
 }
+/* Flex collection styles end */
+/* Grid card styles start */
+.cart-container {
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.cart-box {
+  padding: 20px 70px;
+  background-color: #fff;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+/* Grid card styles End */

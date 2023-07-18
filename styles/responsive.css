@@ -29,6 +29,13 @@
     gap: 15px;
   }
   /* Sponspors Styles End */
+  /* cart Styles with grid Start */
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  /* cart Styles with grid End */
 }
 /* For Tablet Devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
@@ -52,4 +59,11 @@
     gap: 20px;
   }
   /* Sponspors Styles End */
+  /* cart Styles with grid Start */
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  /* cart Styles with grid End */
 }
