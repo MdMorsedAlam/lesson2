@@ -26,6 +26,10 @@ section {
   border-radius: 20px;
   border: none;
 }
+.fa-sharp {
+  color: white !important;
+  padding-left: 5px;
+}
 /* Shared Styles End */
 /* Header Styles Start */
 header,
@@ -164,5 +168,41 @@ nav > ul > li > a {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
+section >p{
+  float: right;
+  color: rgba(224, 44, 109, 0.87);
+  padding-right: 50px;
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+section >p .fa-solid{
+  color: rgba(224, 44, 109, 0.87) !important;
+}
 
 /* Grid card styles End */
+.feature-container {
+  padding: 20px 50px;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+.feature-img {
+  width: 100%;
+  padding: 30px;
+}
+.feature-content {
+  width: 100%;
+  padding: 30px;
+}
+.feature-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0a0826;
+}
+.feature-description {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #6c6c6c;
+  padding: 15px 0px;
+}
