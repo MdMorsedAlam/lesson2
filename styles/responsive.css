@@ -1,4 +1,43 @@
-:root{
-    --primary-bg:red;
-    --primary-text:blue;
+:root {
+  --primary-bg: red;
+  --primary-text: blue;
+}
+/* for mobile devices */
+@media screen and (max-width: 576px) {
+    /* Shared Styles Start*/
+  nav,
+  ul,
+  .banner-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Shared Styles End*/
+  /* Header Styles Start */
+  nav h3 {
+    text-align: center;
+  }
+  .banner-img {
+    min-height: 0px;
+  }
+  .banner-title {
+    font-size: 2rem;
+  }
+  /* Header Styles End */
+}
+/* For Tablet Devices */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    /* Shared Styles Start*/
+  nav,
+  .banner-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Shared Styles End*/
+  /* Header Styles Start */
+  nav h3 {
+    padding-bottom: 15px;
+  }
+   /* Header Styles End */
 }
