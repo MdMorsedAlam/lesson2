@@ -7,16 +7,15 @@
   /* Shared Styles Start*/
   nav,
   ul,
-  .banner-container {
+  .banner-container,
+  .collection-container {
     flex-direction: column;
     padding: 20px;
     text-align: center;
   }
   /* Shared Styles End*/
   /* Header Styles Start */
-  nav h3 {
-    text-align: center;
-  }
+
   .banner-img {
     min-height: 0px;
   }
@@ -35,7 +34,8 @@
 @media screen and (min-width: 576px) and (max-width: 960px) {
   /* Shared Styles Start*/
   nav,
-  .banner-container {
+  .banner-container,
+  .collection-container {
     flex-direction: column;
     padding: 20px;
     text-align: center;
