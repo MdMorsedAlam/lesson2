@@ -85,3 +85,14 @@ nav > ul > li > a {
   min-height: 440px;
 }
 /* Header Styles End */
+.sponspor-container {
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+}
+.collection-container {
+  padding: 10px 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
