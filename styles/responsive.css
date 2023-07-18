@@ -8,7 +8,9 @@
   nav,
   ul,
   .banner-container,
-  .collection-container {
+  .collection-container,
+  .feature-container,
+  .socile-links ul {
     flex-direction: column;
     padding: 20px;
     text-align: center;
@@ -42,7 +44,8 @@
   /* Shared Styles Start*/
   nav,
   .banner-container,
-  .collection-container {
+  .collection-container,
+  .feature-container {
     flex-direction: column;
     padding: 20px;
     text-align: center;

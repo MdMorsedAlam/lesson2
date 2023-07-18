@@ -33,7 +33,8 @@ section {
 /* Shared Styles End */
 /* Header Styles Start */
 header,
-main {
+main,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -168,7 +169,7 @@ nav > ul > li > a {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
-section >p{
+section > p {
   float: right;
   color: rgba(224, 44, 109, 0.87);
   padding-right: 50px;
@@ -176,11 +177,12 @@ section >p{
   font-weight: 700;
   font-size: 1rem;
 }
-section >p .fa-solid{
+section > p .fa-solid {
   color: rgba(224, 44, 109, 0.87) !important;
 }
 
 /* Grid card styles End */
+/* Feature Style Start */
 .feature-container {
   padding: 20px 50px;
   display: flex;
@@ -206,3 +208,39 @@ section >p .fa-solid{
   color: #6c6c6c;
   padding: 15px 0px;
 }
+/* Feature Style End */
+/* Footer Style Start */
+.footer-container {
+  padding: 20px 50px;
+  background-color: #0a0826;
+  color: white;
+  display: block;
+  text-align: center;
+}
+.footer-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footer-content {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+.socile-links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.socile-links li {
+  list-style: none;
+  background-color: #787885;
+  padding: 8px 10px;
+  border-radius: 50%;
+}
+.socile-links li a {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+/* Footer Style End */
