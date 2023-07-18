@@ -48,7 +48,7 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding:0px 10px;
+  padding: 0px 10px;
 }
 nav li {
   list-style: none;
@@ -135,6 +135,15 @@ nav > ul > li > a {
   color: rgba(0, 0, 0, 0.87);
   padding: 10px 0px;
 }
+.fa-solid {
+  color: orange;
+}
+.collection-box-rating span,
+.cart-box-rating span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #5e6366;
+}
 .collection-box-description,
 .cart-box-description {
   font-size: 1rem;
@@ -155,4 +164,5 @@ nav > ul > li > a {
   box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
 }
+
 /* Grid card styles End */
